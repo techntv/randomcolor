@@ -2,7 +2,7 @@ body {
   background-color: #eee; }
 
 #btn {
-  background-color: #6496c8;
+  background-color: #bc1939;
   color: white;
   position: absolute;
   top: 0;
@@ -15,10 +15,11 @@ body {
   font-size: 25px;
   font-weight: bold;
   border: none;
-  box-shadow: 5px 5px #346392, 4.5px 4.5px #346392, 4px 4px #346392, 3px 3px #346392, 2px 2px #346392; }
+  box-shadow: 1px 1px 0.5px #620d1e, 5px 5px 0.5px #620d1e, 4px 4px 0.5px #620d1e, 3px 3px 0.5px #620d1e, 2px 2px 0.5px #620d1e; }
 
 #btn:active {
-  transform: translateY(2px);
-  box-shadow: 3px 3px #346392, 2px 2px #346392, 1px 1px #346392; }
+  transform: translateY(3px);
+  transform: translateX(3px);
+  box-shadow: 2px 2px 0.5px #620d1e, 1px 1px 0.5px #620d1e; }
 
 /*# sourceMappingURL=style.css.map */

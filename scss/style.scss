@@ -1,8 +1,10 @@
 body{
   background-color: #eee;
 }
+
+$bg-color: #bc1939;
 #btn{
-  background-color: #6496c8;
+  background-color: $bg-color;
   color: white;
   position: absolute;
   top: 0;
@@ -15,10 +17,16 @@ body{
   font-size: 25px;
   font-weight: bold;
   border: none;
-  box-shadow: 5px 5px darken(#6496c8, 20%), 4.5px 4.5px darken(#6496c8, 20%),4px 4px darken(#6496c8, 20%),3px 3px darken(#6496c8, 20%),2px 2px darken(#6496c8, 20%);
+  box-shadow: 1px 1px 0.5px darken($bg-color, 20%),
+              5px 5px 0.5px darken($bg-color, 20%),
+              4px 4px 0.5px darken($bg-color, 20%),
+              3px 3px 0.5px darken($bg-color, 20%),
+              2px 2px 0.5px darken($bg-color, 20%);
+
 }
 
 #btn:active{
-  transform: translateY(2px);
-  box-shadow: 3px 3px darken(#6496c8, 20%),2px 2px darken(#6496c8, 20%),1px 1px darken(#6496c8, 20%);
+  transform: translateY(3px);
+  transform: translateX(3px);
+  box-shadow: 2px 2px 0.5px darken($bg-color, 20%),1px 1px 0.5px darken($bg-color, 20%);
 }
