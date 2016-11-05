@@ -1,4 +1,6 @@
 #btn{
+  background-color: #6496c8;
+  color: white;
   position: absolute;
   top: 0;
   left: 0;
@@ -7,4 +9,13 @@
   margin: auto;
   width: 150px;
   height: 50px;
+  font-size: 25px;
+  font-weight: bold;
+  border: none;
+  box-shadow: 5px 5px darken(#6496c8, 20%), 4.5px 4.5px darken(#6496c8, 20%),4px 4px darken(#6496c8, 20%),3px 3px darken(#6496c8, 20%),2px 2px darken(#6496c8, 20%);
+}
+
+#btn:active{
+  transform: translateY(2px);
+  box-shadow: 3px 3px darken(#6496c8, 20%),2px 2px darken(#6496c8, 20%),1px 1px darken(#6496c8, 20%);
 }

@@ -1,4 +1,6 @@
 #btn {
+  background-color: #6496c8;
+  color: white;
   position: absolute;
   top: 0;
   left: 0;
@@ -6,6 +8,14 @@
   bottom: 0;
   margin: auto;
   width: 150px;
-  height: 50px; }
+  height: 50px;
+  font-size: 25px;
+  font-weight: bold;
+  border: none;
+  box-shadow: 5px 5px #346392, 4.5px 4.5px #346392, 4px 4px #346392, 3px 3px #346392, 2px 2px #346392; }
+
+#btn:active {
+  transform: translateY(2px);
+  box-shadow: 3px 3px #346392, 2px 2px #346392, 1px 1px #346392; }
 
 /*# sourceMappingURL=style.css.map */
